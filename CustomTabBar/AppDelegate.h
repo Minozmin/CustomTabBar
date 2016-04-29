@@ -10,8 +10,9 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
++ (AppDelegate *)sharedAppDelegate;
 @property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic, assign) int cartBadgeCount;
 
 @end
 

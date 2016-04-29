@@ -13,6 +13,13 @@
 		12AF05FA1CD1BB4400160562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12AF05F81CD1BB4400160562 /* Main.storyboard */; };
 		12AF05FC1CD1BB4400160562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12AF05FB1CD1BB4400160562 /* Assets.xcassets */; };
 		12AF05FF1CD1BB4400160562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12AF05FD1CD1BB4400160562 /* LaunchScreen.storyboard */; };
+		12AF06081CD1BF7500160562 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AF06071CD1BF7500160562 /* FirstViewController.m */; };
+		12AF060B1CD1BFC300160562 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AF060A1CD1BFC300160562 /* SecondViewController.m */; };
+		12AF060E1CD1BFD700160562 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AF060D1CD1BFD700160562 /* ThirdViewController.m */; };
+		12AF06111CD1BFED00160562 /* ForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AF06101CD1BFED00160562 /* ForthViewController.m */; };
+		12AF06141CD1C15C00160562 /* HMSettingFarmeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AF06121CD1C15C00160562 /* HMSettingFarmeButton.m */; };
+		12AF06171CD1D97900160562 /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AF06161CD1D97900160562 /* FiveViewController.m */; };
+		12AF061A1CD1DB2800160562 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AF06191CD1DB2800160562 /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,20 @@
 		12AF05FB1CD1BB4400160562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12AF05FE1CD1BB4400160562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12AF06001CD1BB4400160562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12AF06061CD1BF7500160562 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		12AF06071CD1BF7500160562 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		12AF06091CD1BFC300160562 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		12AF060A1CD1BFC300160562 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		12AF060C1CD1BFD700160562 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		12AF060D1CD1BFD700160562 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		12AF060F1CD1BFED00160562 /* ForthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForthViewController.h; sourceTree = "<group>"; };
+		12AF06101CD1BFED00160562 /* ForthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForthViewController.m; sourceTree = "<group>"; };
+		12AF06121CD1C15C00160562 /* HMSettingFarmeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSettingFarmeButton.m; sourceTree = "<group>"; };
+		12AF06131CD1C15C00160562 /* HMSettingFarmeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSettingFarmeButton.h; sourceTree = "<group>"; };
+		12AF06151CD1D97900160562 /* FiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		12AF06161CD1D97900160562 /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		12AF06181CD1DB2800160562 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		12AF06191CD1DB2800160562 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +83,20 @@
 				12AF05F31CD1BB4400160562 /* AppDelegate.m */,
 				12AF05F51CD1BB4400160562 /* ViewController.h */,
 				12AF05F61CD1BB4400160562 /* ViewController.m */,
+				12AF06131CD1C15C00160562 /* HMSettingFarmeButton.h */,
+				12AF06121CD1C15C00160562 /* HMSettingFarmeButton.m */,
+				12AF06181CD1DB2800160562 /* UIView+Frame.h */,
+				12AF06191CD1DB2800160562 /* UIView+Frame.m */,
+				12AF06061CD1BF7500160562 /* FirstViewController.h */,
+				12AF06071CD1BF7500160562 /* FirstViewController.m */,
+				12AF06091CD1BFC300160562 /* SecondViewController.h */,
+				12AF060A1CD1BFC300160562 /* SecondViewController.m */,
+				12AF060C1CD1BFD700160562 /* ThirdViewController.h */,
+				12AF060D1CD1BFD700160562 /* ThirdViewController.m */,
+				12AF060F1CD1BFED00160562 /* ForthViewController.h */,
+				12AF06101CD1BFED00160562 /* ForthViewController.m */,
+				12AF06151CD1D97900160562 /* FiveViewController.h */,
+				12AF06161CD1D97900160562 /* FiveViewController.m */,
 				12AF05F81CD1BB4400160562 /* Main.storyboard */,
 				12AF05FB1CD1BB4400160562 /* Assets.xcassets */,
 				12AF05FD1CD1BB4400160562 /* LaunchScreen.storyboard */,
@@ -149,9 +184,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12AF06171CD1D97900160562 /* FiveViewController.m in Sources */,
+				12AF060B1CD1BFC300160562 /* SecondViewController.m in Sources */,
 				12AF05F71CD1BB4400160562 /* ViewController.m in Sources */,
+				12AF060E1CD1BFD700160562 /* ThirdViewController.m in Sources */,
+				12AF06141CD1C15C00160562 /* HMSettingFarmeButton.m in Sources */,
 				12AF05F41CD1BB4400160562 /* AppDelegate.m in Sources */,
 				12AF05F11CD1BB4400160562 /* main.m in Sources */,
+				12AF06111CD1BFED00160562 /* ForthViewController.m in Sources */,
+				12AF061A1CD1DB2800160562 /* UIView+Frame.m in Sources */,
+				12AF06081CD1BF7500160562 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
